@@ -12,6 +12,12 @@ public class LatitudeLongitude : MonoBehaviour
     //輸入現在經緯度
 	[Header("現在的經度x，緯度y", order = 2)]
     public Vector2 InputLatitudeLongitude;
+
+
+
+    [Header("範圍中定位點經度x，緯度y", order = 2)]
+    public Vector2[] Poi; //參考下面說明
+
 	//輸入要判斷地點經緯度，輸入順序參考如下
     //第4個經度x，緯度y               第3經度x，緯度y
     //(4)                            (3)
@@ -25,8 +31,11 @@ public class LatitudeLongitude : MonoBehaviour
     //(1)                           (2) 
     //第1經度x，緯度y                第2經度x，緯度y
     //可使用多邊形以逆時鐘為順序
-    [Header("範圍中定位點經度x，緯度y", order = 2)]
-    public Vector2[] Poi;
+
+
+
+
+
     // Update is called once per frame
     void Update()
     {
