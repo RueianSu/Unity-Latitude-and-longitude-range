@@ -1,4 +1,4 @@
-# Unity-Latitude-and-longitude-range-
+# Unity-Latitude-and-longitude-range
 
 此為判斷使用者經緯度，並過叉積公式作為換算，詳細可參考LatitudeLongitude.cs
 
