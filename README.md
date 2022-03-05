@@ -9,3 +9,4 @@ public Vector2 InputLatitudeLongitude;
 範圍中定位點經度x，緯度y
 
 public Vector2[] Poi;
+感謝芷瑛翻譯，愛妳喔
