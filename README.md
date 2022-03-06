@@ -1,12 +1,11 @@
 # Unity-Latitude-and-longitude-range
 
-此為判斷使用者經緯度，並過叉積公式作為換算，詳細可參考LatitudeLongitude.cs
+This is to determine the user's latitude and longitude, and use the cross product formula as a conversion,
 
-現在的經度x，緯度y
+For details, please refer to LatitudeLongitude.cs
+
+current longitude x, latitude y
 
 public Vector2 InputLatitudeLongitude;
 
-範圍中定位點經度x，緯度y
-
-public Vector2[] Poi;
-感謝芷瑛翻譯
+The longitude x, latitude y of the anchor point in the range
